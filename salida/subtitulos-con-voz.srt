@@ -1,0 +1,120 @@
+1
+00:00:00,500 --> 00:00:05,892
+En 1990, una columnista de revista respondió un problema de probabilidad.
+
+2
+00:00:06,092 --> 00:00:11,485
+Recibió miles de cartas diciendo que se había equivocado. Muchas, de gente con doctorados.
+
+3
+00:00:11,785 --> 00:00:14,484
+Pero ella tenía razón. Veamos por qué.
+
+4
+00:00:14,984 --> 00:00:18,414
+Imagina que estás en un concurso. Hay tres puertas.
+
+5
+00:00:18,714 --> 00:00:23,352
+Detrás de una hay un auto. Detrás de cada una de las otras dos, una cabra.
+
+6
+00:00:23,652 --> 00:00:27,430
+Tú eliges una puerta. Supongamos que eliges la número 1.
+
+7
+00:00:27,930 --> 00:00:32,011
+Ahora el presentador, que sabe dónde está el auto, abre otra puerta.
+
+8
+00:00:32,311 --> 00:00:36,658
+Siempre abre una puerta con una cabra. Digamos que abre la número 3.
+
+9
+00:00:37,158 --> 00:00:41,366
+Y te pregunta: ¿quieres cambiar a la puerta 2, o te quedas con la 1?
+
+10
+00:00:42,066 --> 00:00:47,412
+Casi todos piensan lo mismo: quedan dos puertas, así que es 50 y 50.
+
+11
+00:00:47,712 --> 00:00:52,338
+Parece lógico. Pero es incorrecto: cambiar te da el doble de probabilidades.
+
+12
+00:00:53,138 --> 00:00:57,881
+Al principio, tu puerta tiene 1 probabilidad entre 3 de esconder el auto.
+
+13
+00:00:58,181 --> 00:01:01,727
+Las otras dos puertas, juntas, tienen 2 entre 3.
+
+14
+00:01:02,027 --> 00:01:07,013
+El presentador sabe dónde está el auto y nunca lo abre. Siempre revela una cabra.
+
+15
+00:01:07,313 --> 00:01:14,087
+Por eso, cuando abre la puerta 3, esos 2 tercios no desaparecen: pasan completos a la puerta que queda cerrada.
+
+16
+00:01:14,387 --> 00:01:18,270
+Tu puerta sigue valiendo 1 tercio. La otra vale 2 tercios.
+
+17
+00:01:18,570 --> 00:01:21,385
+Cambiar duplica tus posibilidades de ganar.
+
+18
+00:01:22,485 --> 00:01:27,552
+Si todavía dudas, miremos los tres casos posibles. Siempre eliges la puerta 1.
+
+19
+00:01:28,052 --> 00:01:31,738
+Caso A: el auto está en la 1. Si cambias, pierdes.
+
+20
+00:01:32,038 --> 00:01:37,361
+Caso B: el auto está en la 2. El presentador abre la 3. Si cambias, ganas.
+
+21
+00:01:37,661 --> 00:01:42,833
+Caso C: el auto está en la 3. El presentador abre la 2. Si cambias, ganas.
+
+22
+00:01:43,133 --> 00:01:47,503
+Cambiando ganas en 2 de 3 casos. Quedándote, solo en 1 de 3.
+
+23
+00:01:48,503 --> 00:01:52,746
+Para comprobarlo, simulé este juego 1.000 veces en una computadora.
+
+24
+00:01:53,046 --> 00:01:58,067
+En cada partida comparé qué habría pasado quedándose y qué habría pasado cambiando.
+
+25
+00:01:58,367 --> 00:02:04,549
+El resultado: quedarse ganó 315 veces y cambiar ganó 685.
+
+26
+00:02:04,849 --> 00:02:09,127
+Muy cerca de un tercio contra dos tercios, como predice la teoría.
+
+27
+00:02:10,227 --> 00:02:15,143
+Ojo: esto funciona porque el presentador sabe dónde está el auto y nunca lo abre.
+
+28
+00:02:15,443 --> 00:02:19,442
+Si abriera una puerta al azar, el resultado sería distinto.
+
+29
+00:02:19,942 --> 00:02:23,756
+La intuición nos engaña porque ignora lo que sabe el presentador.
+
+30
+00:02:24,156 --> 00:02:29,072
+Si te gustó, suscríbete para ver más ideas explicadas con animaciones.
+

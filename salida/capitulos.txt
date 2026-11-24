@@ -1,0 +1,7 @@
+0:00 El problema que enfureció a miles de lectores
+0:14 El juego: tres puertas
+0:41 La intuición: ¿50 y 50?
+0:52 La explicación: 1/3 contra 2/3
+1:21 Los tres casos posibles
+1:48 La prueba: simulación de 1.000 partidas
+2:09 La clave: el presentador sabe dónde está el auto
